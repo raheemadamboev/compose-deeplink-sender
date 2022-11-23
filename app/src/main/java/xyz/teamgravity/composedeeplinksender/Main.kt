@@ -33,7 +33,7 @@ class Main : ComponentActivity() {
                     ) {
                         Button(
                             onClick = {
-                                val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://raheem.com/666"))
+                                val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://raheem.com/69"))
                                 val pendingIntent = TaskStackBuilder.create(applicationContext).run {
                                     addNextIntentWithParentStack(intent)
                                     getPendingIntent(0, PendingIntent.FLAG_UPDATE_CURRENT)
